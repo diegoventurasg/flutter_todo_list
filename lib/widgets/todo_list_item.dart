@@ -32,7 +32,7 @@ class TodoListItem extends StatelessWidget {
         child: Slidable(
           endActionPane: ActionPane(
             motion: const ScrollMotion(),
-            extentRatio: 0.25,
+            extentRatio: 0.3,
             children: [
               SlidableAction(
                 onPressed: (_) {
